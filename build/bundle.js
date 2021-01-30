@@ -320,7 +320,7 @@ var app = (function () {
     Sound source:
     <a href="https://freesound.org/people/metrostock99/sounds/345086/">freesound.org</a>`;
 
-    			if (img.src !== (img_src_value = "/handwashing.gif")) attr(img, "src", img_src_value);
+    			if (img.src !== (img_src_value = "handwashing.gif")) attr(img, "src", img_src_value);
     			attr(img, "alt", "How to wash your hands.");
     			attr(img, "class", "u-max-full-width");
     		},
@@ -563,7 +563,7 @@ var app = (function () {
     			create_component(howto.$$.fragment);
     			t3 = space();
     			audio_1 = element("audio");
-    			audio_1.innerHTML = `<source src="/sound.wav"/>`;
+    			audio_1.innerHTML = `<source src="sound.wav"/>`;
     			attr(h1, "class", "svelte-13hvi8p");
     			attr(div0, "class", "tow-half column");
     			attr(div1, "class", "row");
