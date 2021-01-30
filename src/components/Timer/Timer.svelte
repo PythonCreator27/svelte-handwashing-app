@@ -5,7 +5,7 @@
 <div class="container">
     <p class="h2">Seconds Left:</p>
     <ProgressBar />
-    <button class="button-primary" style="width: 100%">Start</button>
+    <button class="button-primary" style="width: 80%">Start</button>
 </div>
 
 <style>
