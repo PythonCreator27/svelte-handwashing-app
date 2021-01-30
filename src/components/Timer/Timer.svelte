@@ -1,10 +1,14 @@
 <script>
+    import { createEventDispatcher } from 'svelte';
     import ProgressBar from './ProgressBar/ProgressBar.svelte';
 
     const totalSeconds = 20;
     let secondsLeft = totalSeconds;
     let isRunning = false;
     $: progress = ((totalSeconds - secondsLeft) / totalSeconds) * 100;
+
+    const dispatch = createEventDispatcher();
+
     const onStart = () => {
         isRunning = true;
         const interval = setInterval(() => {
@@ -13,6 +17,7 @@
                 isRunning = false;
                 clearInterval(interval);
                 secondsLeft = totalSeconds;
+                dispatch('timer-end');
             }
         }, 1000);
     };
