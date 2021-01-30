@@ -1,10 +1,20 @@
 <script lang="ts">
+    import HowTo from './components/HowTo/HowTo.svelte';
+    import Timer from './components/Timer/Timer.svelte';
 </script>
 
-<!-- This is test code, not part of the real application -->
-<h1>TEST</h1>
-<div class="row">
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
+<div class="container">
+    <div class="row">
+        <div class="tow-half column">
+            <h1>Handwashing App</h1>
+            <Timer />
+            <HowTo />
+        </div>
+    </div>
 </div>
+
+<style>
+    h1 {
+        text-align: center;
+    }
+</style>
