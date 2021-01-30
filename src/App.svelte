@@ -21,7 +21,7 @@
 
 <!-- svelte-ignore a11y-media-has-caption -->
 <audio bind:this={audio}>
-    <source src="/sound.wav" />
+    <source src="sound.wav" />
 </audio>
 
 <style>
