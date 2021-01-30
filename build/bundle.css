@@ -1,4 +1,4 @@
-h1.svelte-13hvi8p{text-align:center}/*
+/*
 * Skeleton V2.0.4
 * Copyright 2014, Dave Gamache
 * www.getskeleton.com
@@ -416,7 +416,7 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
-/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+h1.svelte-13hvi8p{text-align:center}/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
  * 1. Set default font family to sans-serif.
